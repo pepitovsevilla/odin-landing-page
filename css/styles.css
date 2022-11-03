@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 32px;
+    background-color: black;
 }
 
 .logo {
@@ -15,10 +16,12 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
+    background-color: #DA291C;
+    padding: 32px;
 }
 
 .banner-image {
-    width: 750px;
+    width: 650px;
     height: auto;
 }
 
@@ -28,6 +31,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 32px;
 }
 
 .menu-items-container {
@@ -39,4 +43,17 @@
 .menu-item {
     width: 200px;
     height: auto;
+}
+
+.testimonial {
+    background-color: #FFC72C;
+    padding: 32px;
+}
+
+.call-to-action {
+    padding: 32px;
+}
+
+.footer {
+    padding: 32px;
 }
