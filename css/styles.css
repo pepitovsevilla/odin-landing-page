@@ -133,9 +133,39 @@ a {
 
 .call-to-action {
     padding: 32px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: #DA291C;
+    justify-content: space-between;
+    flex: 0 1 auto;
+    width: 750px;
+    padding: 32px 40px;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.call-to-action-message {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.call-to-action-label {
+    font-size: 32px;
+    font-weight: 500;
+
 }
 
 .footer {
     padding: 32px;
-    background-color: #1a1919;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
