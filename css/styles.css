@@ -33,7 +33,7 @@ a {
     align-items: center;
     gap: 32px;
     background-color: #DA291C;
-    padding: 32px;
+    padding: 64px;
 }
 
 .header-text {
@@ -74,7 +74,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 32px;
+    padding: 64px;
     gap: 32px;
     background-color: #fafbfc;
 }
@@ -115,7 +115,7 @@ a {
 .testimonial-container {
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 64px;
     width: 800px;
 }
 
@@ -132,7 +132,7 @@ a {
 }
 
 .call-to-action {
-    padding: 32px;
+    padding: 64px;
     display: flex;
     align-content: center;
     justify-content: center;
